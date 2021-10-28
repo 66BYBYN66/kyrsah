@@ -53,6 +53,7 @@ class Comment(models.Model):
     idUser = models.ForeignKey(User, on_delete=models.CASCADE)
 
 #     для тестового комита
+#     для тествого комита в другой ветке
 
 
 
